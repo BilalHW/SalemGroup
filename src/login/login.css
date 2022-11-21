@@ -1,0 +1,101 @@
+.page{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.page_form{
+    background-color: white;
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    
+    width: 100vw;
+    max-width: 30rem;
+    align-items: center;
+    justify-items: center; 
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem; 
+    line-height: 2rem;
+    font-weight: bold;
+    color: #000;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.Spacing{
+    color: red;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding: 8px;;
+    outline: none;
+    border-radius: 0.375rem;
+    width: 100%;
+    text-align: left;
+}
+.labels{
+    display: block;
+    color: #718096;
+    text-align: left;
+    font-size: large;
+}
+.inputs{
+    
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 2px;
+    outline: none;
+    border-radius: 0.375rem;
+    width: 90%;
+    background-color: #eaeaea;
+    box-shadow: 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    align-self: baseline;
+
+
+}
+.Button{
+    /* font-bold flex justify-center items-center cursor-pointer font-sans py-2 px-6 rounded-md text-sm 
+     text-white tx-9xl w-60 py-1
+     mt-10 bg-purple rounded-md*/
+    margin-top: 10px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 0.375rem;
+    font-size: small;
+    background-color: #26ff00;
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+.last{
+    text-align: center;
+    text-decoration: none;
+}
+/* bg-white px-10 py-12 rounded-xl w-screen shadow-md max-w-sm" */
+/*bg-indigo-50 px-4 py-2 outline-none rounded-md w-full
+bg-indigo-50 px-4 py-2 outline-none rounded-md w-full
+block mb-1 text-gray-600 
+text-center text-2xl font-bold text-black 
+class="h-screen w-full bg-purple flex flex-col justify-center items-center "
+"bg-white px-5 py-10 rounded-xl shadow-2xl max-w-md items-center justify-center" 
+items-center align-middle ml-5 px-10*/
