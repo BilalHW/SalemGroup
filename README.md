@@ -1,12 +1,14 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-**
-#Install npm library**
+
+
+# Getting Started with npm library
+
 
 install npm
 
-**##Install axios **
+# Getting Started with axios 
 
 npm install react-axios
 
